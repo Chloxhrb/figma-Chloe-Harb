@@ -1,0 +1,288 @@
+/* version tablette */
+
+@media screen and (max-width: 768px) {
+  :root {
+    --font24: 24px;
+    --Column: column;
+  }
+  * {
+    max-width: 768px;
+  }
+
+  .Div1 {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .Div2,
+  .Div4,
+  .Div3,
+  .Div5,
+  .Div6 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  /*section 1*/
+  .first {
+    height: 334px;
+  }
+  .CraftingVisual {
+    font-size: var(--font24);
+  }
+  #titleunderline {
+    width: 81px;
+  }
+  .Womanpicture {
+    padding-left: 60px;
+  }
+  .textButton {
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 55%;
+  }
+  .pictureOfwoman {
+    width: 279px;
+    height: 284px;
+    transform: translate(-110px, 30px);
+  }
+  /*section 2*/
+  .second {
+    height: 1070px;
+  }
+  .containerpicturetexte {
+    flex-direction: var(--Column);
+    align-items: center;
+  }
+  .roundPicture {
+    height: fit-content;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    width: fit-content;
+    display: flex;
+  }
+  .paragraphe2 {
+    padding-left: 17px;
+    padding-right: 17px;
+    display: flex;
+    flex-direction: var(--Column);
+  }
+  .paragraphe1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .line {
+    font-size: 16px;
+  }
+  #reunion {
+    width: 342px;
+    height: 317px;
+  }
+  /*section 3*/
+  .third {
+    height: 1002px;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 680px;
+  }
+  .imgrid {
+    height: 320px;
+  }
+  .Ongrid {
+    margin-left: 30px;
+    height: 70px;
+    bottom: 50px;
+  }
+  .buttonRequest {
+    margin-left: 0;
+  }
+  .button1 {
+    display: none;
+  }
+  .button2 {
+    display: block;
+  }
+  .form-button {
+    display: flex;
+    justify-content: center;
+  }
+  .gridisplay {
+    display: none;
+  }
+  /*section 4*/
+  .fourth {
+    height: 1002px;
+  }
+  .pictureCarroussel {
+    width: 100%;
+    padding: 0px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  .textCarroussel {
+    width: 100%;
+    height: 290px;
+    gap: 20px;
+    text-align: center;
+  }
+  .containerCarroussel {
+    width: 482px;
+    height: 686px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .LeftArrow {
+    height: 686px;
+  }
+  .RightArrow {
+    height: 686px;
+  }
+  .carroussel {
+    height: 686px;
+    display: flex;
+    justify-content: center;
+  }
+  #Workimg {
+    width: 344px;
+    height: 276px;
+  }
+  .TheirDesign {
+    width: 422px;
+    height: 238px;
+    padding: 0;
+  }
+  .guillemet {
+    width: 100%;
+    padding-left: 192px;
+    height: 42px;
+  }
+  .text1 {
+    display: none;
+  }
+  .text2 {
+    display: block;
+  }
+  .pointCarroussel {
+    padding-top: 20px;
+  }
+  #blueline {
+    width: 127px;
+  }
+  .usToday {
+    padding-top: 0px;
+  }
+  /*section 5*/
+  .fifth {
+    height: 798px;
+    flex-direction: column;
+  }
+  #office {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .ContactFifth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 250px;
+  }
+  .info1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .info2 {
+    grid-row: 1/2;
+    columns: 2/3;
+  }
+  #formulaire {
+    margin-top: 0;
+    width: 100%;
+    height: 800px;
+    padding: 0px 99px;
+  }
+  /*section 6*/
+  .sixth {
+    height: 808px;
+  }
+  .blogs {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .picture1 {
+    display: block;
+  }
+  .picture2 {
+    display: none;
+  }
+  /*footer*/
+  footer {
+    height: 605px;
+  }
+  #logoFooter {
+    height: 130px;
+    padding-top: 13%;
+    padding-left: 60px;
+  }
+  #resauxSocial {
+    padding-left: 60px;
+    height: 50px;
+    gap: 18px;
+  }
+  .allFooter {
+    height: 580px;
+    flex-wrap: wrap;
+  }
+  #logoSocial {
+    width: 35%;
+    height: 230px;
+    order: 1;
+  }
+  #contact {
+    width: 50%;
+    padding-left: 60px;
+    height: 58%;
+    order: 3;
+  }
+  .footerButton {
+    width: 150px;
+    height: 46px;
+    font-size: 16px;
+  }
+  #explore {
+    width: 50%;
+    padding-left: 75px;
+    height: 58%;
+    order: 4;
+  }
+  #newsletter {
+    width: 65%;
+    padding-top: 25px;
+    height: 258px;
+    order: 2;
+  }
+  #prompt-footer {
+    height: 48px;
+  }
+  .case2 {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .titleFooter {
+    font-size: 20px;
+  }
+  .copyrigth {
+    width: 100%;
+    background-color: var(--blackfooter);
+    order: 5;
+  }
+}
